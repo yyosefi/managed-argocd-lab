@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
   destination:
     namespace: guestbook
-    name: staging # Update this value.
+    name: in-cluster # Update this value.
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
